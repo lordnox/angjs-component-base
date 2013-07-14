@@ -1,4 +1,6 @@
 
+require('angularjs');
+
 var name  = 'angjs-component';
 var app   = angular.module(name, []);
 
