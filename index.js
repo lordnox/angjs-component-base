@@ -4,5 +4,5 @@ require('angularjs');
 var name  = 'angjs-component';
 var app   = angular.module(name, []);
 
-module.exports        = name;
-module.exports.module = app;
+module.exports      = app;
+module.exports.name = name;
